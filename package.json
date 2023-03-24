@@ -1,0 +1,28 @@
+{
+  "name": "seminario-app",
+  "version": "1.0.0",
+  "description": "Aplicación web desarrollada en el marco del Seminario Permanente de Tecnología Musical del Posgrado en Música UNAM. El objetivo es explorar las funcionalidades de audio en el navegador.",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel src/*.html --dist-dir docs",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holomorfo/seminario-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/holomorfo/seminario-app/issues"
+  },
+  "homepage": "https://github.com/holomorfo/seminario-app#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "codemirror": "^6.0.1"
+  }
+}

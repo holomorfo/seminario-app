@@ -107,11 +107,16 @@
     &copy; SPTM
     <script>document.write(new Date().getFullYear())</script>
   </footer>
-  <script src="html/js/sonido.js"></script>
+  <script type="module" src="./html/sonido.js"></script>
   <script>
     $('.menu-toggle').click(function () {
       $(".nav").toggleClass("mobile-nav");
       $(this).toggleClass("is-active");
+    });
+
+    $('.nav-item').click(function () {
+      console.log('nav item click')
+      $('.menu-toggle').addClass("is-active");
     });
   </script>
 </body>
